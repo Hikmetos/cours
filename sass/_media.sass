@@ -1,0 +1,159 @@
+@media (max-width:1200px)
+    .menu
+        .menu-item
+            padding-right: 20px
+        .menu-link
+            font-size: 13px
+
+    .promo
+        .promo-header
+            font-size: 50px
+    
+@media (max-width:992px)
+    .menu
+        .menu-item
+            padding-right: 9px
+        .menu-link
+            font-size: 10px
+    .subheder
+        .subheader-logo
+            img
+                width: 100%
+        .subheader-official
+            font-size: 11px
+        .subheader-phone
+            font-size: 20px
+        .subheader-btn
+            margin-top: 21px
+            height: 40px
+            width: 100%
+    .promo
+        .promo-header
+            font-size: 40px
+        .promo-subheader
+            font-size: 30px
+        .promo-descr
+            font-size: 13px
+
+@media (max-width:767px)
+    .menu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100vh
+        padding: 20px 15px
+        background-color: rgba(0, 0, 0, .8)
+        z-index: 99999
+        transition: 0.6s all
+        .menu-item
+            padding-right: 0
+            border: none
+            margin: 10px 0
+        .menu-link
+                font-size: 20px
+    .menu-active
+        left: 0
+
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(50%)
+        width: 26px
+        height: 12px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            background-color: #ffffff
+            margin-bottom: 2px
+            transition: 0.6s all
+    .hamburger-active
+        span
+            margin-bottom: -2px
+            &:nth-child(1)
+                transform: translateY(3px) rotate(-45deg)
+            &:nth-child(2)
+                display: none
+            &:nth-child(3)
+                transform: translateY(3px) rotate(45deg)
+
+    .xs-hidden
+        display: none   
+    .xs-visible
+        display: block    
+    .subheader
+        .subheader-phone
+            color: #ffffff
+            margin-top: 10px
+            font-size: 16px
+            font-weight: 400
+            text-align: center
+            text-transform: uppercase
+            text-align: center
+        .subheader-btn
+            display: block
+            width: 200px
+            height: 40px
+            margin: 0 auto
+            margin-top: 10px
+
+    .promo
+        .promo-header
+            font-size: 45px 
+
+@media (max-width:575px)
+    .subheader
+        height: 60px
+        .subheader-official
+            display: none
+        .subheader-logo
+            margin-top: 22px
+    .subheader
+        height: 60px
+        .subheader-phone
+            font-size: 12px
+            font-weight: 400
+            text-transform: uppercase
+            margin-top: 11px
+        .subheader-btn
+            height: 22px
+            width: 110px
+            font-size: 10px
+            margin-top: 9px
+    .promo
+        min-height: 400px
+        padding: 93px 0 35px 0
+        .promo-descr
+            display: none
+        .promo-header
+            font-size: 30px
+            padding: 0 24px
+            line-height: 35px
+        .promo-subheader
+            font-size: 20px
+            margin-top: 33px
+            padding: 0 10px
+            line-height: 30px
+            margin-top: 72px    
+    .menu
+        width: 85%
+        .menu-item
+            width: 100%
+            text-align: center
+            padding: 5px 0
+        .menu-link
+            display: block
+    
+
+    .advantages
+        padding: 22px 0 36px 0
+        .advantages-header
+            font-size: 18px
+            margin-top: 15px
+            line-height: 16px
